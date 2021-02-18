@@ -1,0 +1,95 @@
+@import url(//db.onlinewebfonts.com/c/5ef8a424b69b83d12929ade2aae274d7?family=Avenir+Next+Ultra+Light);
+
+@font-face {font-family: "Avenir Next Ultra Light"; src: url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.eot"); src: url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.svg#Avenir Next Ultra Light") format("svg"); }
+
+@font-face {font-family: "Avenir"; src: local("resources/AvenirNextLTPro-Regular.otf");}
+
+/* General */
+
+html {
+    font-size: 16px;
+    padding: 0 2rem;
+}
+
+.shift-right {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 40%;
+}
+
+.margin-top {
+    margin-top: 4rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.offwhite {
+    background-color: ;
+}
+
+/*Top Bar*/
+
+.top-bar {
+    font-family: Avenir Next Ultra Light;
+    background-color: rgb(252, 251, 248);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.top-bar span {
+    padding: 1rem;
+}
+
+.green-box {
+    color: rgb(202, 228, 54);
+    font-weight: bold;
+    border: solid 0.1rem rgb(202,228,54);
+}
+
+/*Welcome*/ 
+
+.welcome {
+    font-family: Avenir Next Ultra Light;
+    font-weight: lighter;
+    margin-top: 4rem;
+}
+
+/*Home info*/
+
+.home-info {
+    font-family: Avenir;
+    margin-top: 6rem;
+    line-height: 3rem;
+    display: flex;
+}
+
+.right img {
+    width: 30%;
+    height: auto;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+
